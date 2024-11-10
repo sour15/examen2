@@ -16,7 +16,7 @@ public class MedicoSoap {
     protected int idMedico
     @XmlElement(required = true)
     protected String NomMedico;
-    protected int numero;
+    protected int apeMedico;
     @XmlElement(required = true)
-    protected String referencia;
+    protected String fechamedico;
 }
